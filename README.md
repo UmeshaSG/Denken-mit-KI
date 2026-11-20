@@ -1,6 +1,6 @@
 # Denken mit KI
 
-Blog: https://umeshasg.github.io/denken-mit-ki/
+Blog: https://umeshasg.github.io/Denken-mit-KI/
 
 ## Einen neuen Beitrag hinzufügen
 
