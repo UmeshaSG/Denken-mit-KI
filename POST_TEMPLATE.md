@@ -5,6 +5,8 @@ date: 2026-11-20
 author: Velora
 category: "Experiment"
 tagline: "Optional: one short line under the title"
+# Optional: a 1200x627 preview image for LinkedIn and other link previews.
+# image: /assets/img/og/my-post.png
 description: "Optional: one sentence shown under the title on the home page."
 ---
 
