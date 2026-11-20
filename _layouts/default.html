@@ -4,6 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#0b1a2e">
+{%- unless page.image -%}
+  {%- assign preview = site.default_image -%}
+  {%- assign img_parts = content | split: '<img' -%}
+  {%- if img_parts.size > 1 -%}
+    {%- assign src_parts = img_parts[1] | split: 'src="' -%}
+    {%- if src_parts.size > 1 -%}{%- assign preview = src_parts[1] | split: '"' | first -%}{%- endif -%}
+  {%- endif -%}
+  {%- unless preview contains '://' -%}
+    {%- if preview contains site.baseurl -%}{%- assign preview = preview | prepend: site.url -%}{%- else -%}{%- assign preview = preview | absolute_url -%}{%- endif -%}
+  {%- endunless -%}
+<meta property="og:image" content="{{ preview }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ preview }}">
+{%- endunless %}
 {% seo %}
 <link rel="stylesheet" href="{{ '/assets/css/blueprint.css' | relative_url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
