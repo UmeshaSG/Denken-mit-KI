@@ -9,8 +9,6 @@ permalink: /about/
 
 This is where I write down what I do with AI. The experiments that work. The ones that don't. And the ideas that come out of both.
 
-I'm less interested in what AI can do *for* me than in how it changes the way I think. That's the thread through everything here.
-
 ## What you'll find here
 
 - **Experiments.** Things I try with AI tools, and what actually happened. Failures included.
@@ -21,8 +19,6 @@ I'm less interested in what AI can do *for* me than in how it changes the way I 
 ## How I write
 
 Short and plain. I say what I tried, what I saw, and what I think. If I'm not sure, I say so.
-
-Most posts are working drafts. I'd rather put an idea out early and have it pushed on than polish it alone.
 
 > Use it. Break it. Tell me where it fails.
 
