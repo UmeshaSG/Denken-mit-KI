@@ -12,11 +12,4 @@ plugins:
 exclude:
   - README.md
   - POST_TEMPLATE.md
-defaults:
-  - scope:
-      path: ""
-    values:
-      image:
-        path: /assets/img/og/default.png
-        width: 1200
-        height: 627
+default_image: /assets/img/og/default.png
