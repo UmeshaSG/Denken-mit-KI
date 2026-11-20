@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Titel des Beitrags"
+title: "Post title"
 date: 2026-11-20
 author: Velora
-tagline: "Optional: eine kurze Zeile unter dem Titel"
-description: "Optional: ein Satz, der auf der Startseite unter dem Titel steht."
+category: "Experiment"
+tagline: "Optional: one short line under the title"
+description: "Optional: one sentence shown under the title on the home page."
 ---
 
-Schreib hier deinen Text. Markdown funktioniert: **fett**, *kursiv*, [Links](https://example.com), Listen und Überschriften mit `##`.
+Write your post here. Markdown works: **bold**, *italic*, [links](https://example.com), lists, and headings with `##`.
 
-> Ein Zitat oder ein Kernsatz erscheint als goldene Box.
+> A quote or key line shows up as a gold box.
