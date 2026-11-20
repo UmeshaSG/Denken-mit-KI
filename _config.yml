@@ -1,0 +1,11 @@
+title: Denken mit KI
+description: Gedanken über das Denken mit künstlicher Intelligenz.
+theme: minima
+lang: de
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
+  - POST_TEMPLATE.md
