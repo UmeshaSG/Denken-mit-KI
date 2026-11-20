@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'de' }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b1a2e">
+{% seo %}
+<link rel="stylesheet" href="{{ '/assets/css/blueprint.css' | relative_url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+</head>
+<body>
+<header class="site-header">
+  <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <nav class="site-nav">
+    <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Beiträge</a>
+    <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} class="active"{% endif %}>Über</a>
+  </nav>
+</header>
+<main class="sheet">
+  <span class="reg tl"></span><span class="reg tr"></span><span class="reg bl"></span><span class="reg br"></span>
+{{ content }}
+</main>
+<footer class="site-footer">
+  <span>&copy; {{ 'now' | date: '%Y' }} Velora</span>
+  <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+</footer>
+</body>
+</html>

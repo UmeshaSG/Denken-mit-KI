@@ -1,7 +1,7 @@
 title: Denken mit KI
 description: Gedanken über das Denken mit künstlicher Intelligenz.
-theme: minima
 lang: de
+theme: minima
 permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-feed
