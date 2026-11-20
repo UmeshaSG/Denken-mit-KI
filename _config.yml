@@ -1,4 +1,7 @@
 title: Denken mit KI
+url: "https://umeshasg.github.io"
+baseurl: "/Denken-mit-KI"
+author: Velora
 description: "Thinking with AI, in public. What I try, what I learn, and what I make of where AI is heading."
 lang: en
 theme: minima
@@ -9,3 +12,11 @@ plugins:
 exclude:
   - README.md
   - POST_TEMPLATE.md
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/img/og/default.png
+        width: 1200
+        height: 627
