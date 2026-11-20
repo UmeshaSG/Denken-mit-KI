@@ -1,0 +1,11 @@
+<section class="comments">
+  <h2 class="comments-title">{% if page.lang == "en" %}Comments{% else %}Kommentare{% endif %}</h2>
+  <script src="https://utteranc.es/client.js"
+          repo="UmeshaSG/Denken-mit-KI"
+          issue-term="pathname"
+          label="comments"
+          theme="{{ include.theme | default: 'github-light' }}"
+          crossorigin="anonymous"
+          async>
+  </script>
+</section>
