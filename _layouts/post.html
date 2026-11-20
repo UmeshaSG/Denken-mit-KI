@@ -2,10 +2,10 @@
 layout: default
 ---
 <article>
-  <div class="label">{{ page.category | default: "Beitrag" }}</div>
+  <div class="label">{{ page.category | default: "Post" }}</div>
   <h1>{{ page.title | escape }}</h1>
   {% if page.tagline %}<p class="tagline">{{ page.tagline }}</p>{% endif %}
-  <p class="meta">{% if page.author %}Von {{ page.author }} · {% endif %}{{ page.date | date: "%d.%m.%Y" }}</p>
+  <p class="meta">{% if page.author %}By {{ page.author }} · {% endif %}{{ page.date | date: "%-d %B %Y" }}</p>
   {{ content }}
 </article>
 {% include comments.html %}

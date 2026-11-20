@@ -1,6 +1,6 @@
 title: Denken mit KI
-description: Gedanken über das Denken mit künstlicher Intelligenz.
-lang: de
+description: "Thinking with AI, in public. What I try, what I learn, and what I make of where AI is heading."
+lang: en
 theme: minima
 permalink: /:year/:month/:day/:title/
 plugins:
